@@ -1,0 +1,65 @@
+{
+  "expo": {
+    "name": "Partlyra",
+    "slug": "partlyra",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "partlyra",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F1F0EC"
+    },
+    "assetBundlePatterns": [
+      "assets/*.png"
+    ],
+    "android": {
+      "package": "com.partlyra.app",
+      "versionCode": 1,
+      "compileSdkVersion": 35,
+      "targetSdkVersion": 35,
+      "minSdkVersion": 24,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#4A5C6A"
+      },
+      "permissions": [],
+      "blockedPermissions": [
+        "android.permission.INTERNET",
+        "android.permission.ACCESS_NETWORK_STATE",
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.POST_NOTIFICATIONS",
+        "android.permission.READ_CONTACTS",
+        "android.permission.READ_CALENDAR",
+        "android.permission.WRITE_CALENDAR",
+        "android.permission.SCHEDULE_EXACT_ALARM"
+      ],
+      "edgeToEdgeEnabled": true
+    },
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#4A5C6A"
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 35,
+            "targetSdkVersion": 35,
+            "minSdkVersion": 24,
+            "buildToolsVersion": "35.0.0"
+          }
+        }
+      ]
+    ]
+  }
+}
